@@ -109,8 +109,34 @@ export default function Home() {
           </span>
         </ButtonBlue>
       </div>
-      <footer className="bg-[#DADADA] w-full flex flex-row items-center justify-center">
-        <p className="text-[#6A6A6A] w-[90vw] max-w-[800px] text-center my-4">
+      <footer className="bg-[#DADADA] w-full flex flex-col items-center justify-center">
+        <h2 className="text-[#6A6A6A] mt-8 font-chronicaPro text-xl">
+          Salesiáni Pardubice
+        </h2>
+        <div className="text-[#6A6A6A] flex md:flex-row flex-col w-[90vw] max-w-[800px] flex-wrap justify-around items-center mt-2 text-sm unde">
+          <Link
+            href={"https://salesianipardubice.cz/stredisko-mladeze/"}
+            target="_blank"
+          >
+            STŘEDISKO MLÁDEŽE
+          </Link>
+          <span className="hidden md:inline">{" ⁘ "}</span>
+          <Link href={"https://salesianipardubice.cz/kostel/"} target="_blank">
+            KOSTEL
+          </Link>
+          <span className="hidden md:inline">{" ⁘ "}</span>
+          <Link href={"https://dozivota.cz/programy"} target="_blank">
+            CENTRUM DON BOSCO
+          </Link>
+          <span className="hidden md:inline">{" ⁘ "}</span>
+          <Link
+            href={"https://salesianipardubice.cz/komunita/"}
+            target="_blank"
+          >
+            SALESIÁNSKÁ KOMUNITA
+          </Link>
+        </div>
+        <p className="text-[#6A6A6A] w-[90vw] max-w-[800px] text-center my-4 mb-8 text-xs">
           Vytvořili{" "}
           <Link
             href={"https://salesianipardubice.cz/"}
@@ -119,7 +145,7 @@ export default function Home() {
           >
             Salesiáni Pardubice
           </Link>{" "}
-          pro účel otevření nového Salesináského domu v Pardubicích .
+          pro účel otevření nového Salesináského domu v&nbsp;Pardubicích.
         </p>
       </footer>
     </main>
