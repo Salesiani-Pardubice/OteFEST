@@ -19,3 +19,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cover-gradient {
+  background: rgb(124, 9, 26);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 9, 26, 1) 10%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(27, 180, 210, 1) 90%
+  );
+}

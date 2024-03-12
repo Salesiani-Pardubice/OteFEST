@@ -25,26 +25,34 @@ export default function Home() {
           className={``}
         />
       </header>
-      <div className="flex flex-row items-center justify-center w-full">
-        <img src="assets/svg/logo_otefest.svg" className="max-w-64" />
-        <img
-          src="assets/images/group.jpg"
-          className="rounded-full max-w-48 max-h-48 border-8 border-white"
-        />
-        <div>
-          <p>otevíráme dveře</p>
-          <p>mladým!</p>
-          <p>oslavnte to</p>
-          <p>s námi!</p>
-          <p>
-            26. května
-            <span>
-              20
-              <br />
-              24
-            </span>
-          </p>
+      <div className="w-full flex flex-row justify-center">
+        <div className="bg-[#7C091A] w-full"></div>
+        <div className="flex flex-row items-center justify-center cover-gradient w-[90vw] max-w-[800px]">
+          <div className="w-[35vw] max-w-[300px] flex flex-row justify-center items-center">
+            <img
+              src="assets/svg/logo_otefest.svg"
+              className="w-[25vw] max-w-[200px] my-4"
+            />
+          </div>
+          <img
+            src="assets/images/group.jpg"
+            className="rounded-full w-[20vw] max-w-[130px] border-4 border-white"
+          />
+          <div className="font-chronicaPro w-[35vw] max-w-[300px] uppercase text-white flex flex-col justify-center items-end my-4">
+            <p className="text-xs sm:text-base">otevíráme dveře</p>
+            <p className="text-2xl sm:text-4xl">mladým!</p>
+            <p className="text-xs sm:text-base">oslavnte to</p>
+            <p className="text-2xl sm:text-4xl">s námi!</p>
+            <p className="text-xl sm:text-3xl text-[#7D0819] flex flex-row">
+              26.&nbsp;května
+              <div className="text-xs font-chronicaProBook text-wrap flex flex-col items-center justify-center">
+                <span className="m-0 leading-[.65rem]">20</span>
+                <span className="m-0 leading-[.65rem]">24</span>
+              </div>
+            </p>
+          </div>
         </div>
+        <div className="bg-[#1BB4D2] w-full"></div>
       </div>
       <h1>OteFEST</h1>
     </main>
