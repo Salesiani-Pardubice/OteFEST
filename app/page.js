@@ -62,7 +62,7 @@ export default function Home() {
         <div className="bg-[#1BB4D2] w-full"></div>
       </div>
       <div className="bg-[#DADADA] w-full flex flex-row items-center justify-center">
-        <p className="text-[#6A6A6A] w-[90vw] max-w-[800px] text-center my-4">
+        <p className="text-[#6A6A6A] w-[90vw] max-w-[800px] text-center text-sm my-4">
           <Strong>
             Otevíráme zrekonstruované Salesiánské centrum Pardubice:
           </Strong>
