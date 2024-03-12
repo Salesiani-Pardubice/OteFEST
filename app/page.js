@@ -1,4 +1,5 @@
 import HeaderLogo from "@/components/header-logo";
+import Strong from "@/components/strong";
 
 export default function Home() {
   return (
@@ -53,6 +54,18 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-[#1BB4D2] w-full"></div>
+      </div>
+      <div className="bg-[#DADADA] w-full flex flex-row items-center justify-center">
+        <p className="text-[#6A6A6A] w-[90vw] max-w-[800px] text-center my-4">
+          <Strong>
+            Otevíráme zrekonstruované Salesiánské centrum Pardubice:
+          </Strong>
+          <br />
+          zázemí pro mladé lidi, prostor pro dobrovolnické a&nbsp;dobročinné
+          (nejen) křesťanské aktivity.
+          <br />
+          <Strong>Buďte u&nbsp;toho s&nbsp;námi!</Strong>
+        </p>
       </div>
       <h1>OteFEST</h1>
     </main>
