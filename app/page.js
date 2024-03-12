@@ -139,7 +139,7 @@ export default function Home() {
             SALESIÁNSKÁ KOMUNITA
           </Link>
         </div>
-        <p className="text-[#6A6A6A] w-[90vw] max-w-[800px] text-center my-4 mb-8 text-xs">
+        <p className="text-[#6A6A6A] w-[90vw] max-w-[800px] text-center my-4 mb-8 text-sm">
           Vytvořili{" "}
           <Link
             href={"https://salesianipardubice.cz/"}
