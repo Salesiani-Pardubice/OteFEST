@@ -76,7 +76,7 @@ export default function Home() {
           src="assets/svg/program_komplet.svg"
         />
       </div>
-      <div className="grid grid-cols-2 max-w-[800px] w-[90vw] my-4">
+      <div className="grid grid-cols-2 max-w-[800px] w-[90vw] my-4 mb-8">
         <ButtonRed target={"/dobrovolnici"} className="">
           <p className="sm:text-base md:text-xl text-xs font-chronicaPro">
             Zapojte se!
@@ -109,6 +109,19 @@ export default function Home() {
           </span>
         </ButtonBlue>
       </div>
+      <footer className="bg-[#DADADA] w-full flex flex-row items-center justify-center">
+        <p className="text-[#6A6A6A] w-[90vw] max-w-[800px] text-center my-4">
+          Vytvořili{" "}
+          <Link
+            href={"https://salesianipardubice.cz/"}
+            target="_blank"
+            className="underline"
+          >
+            Salesiáni Pardubice
+          </Link>{" "}
+          pro účel otevření nového Salesináského domu v Pardubicích .
+        </p>
+      </footer>
     </main>
   );
 }
