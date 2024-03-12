@@ -2,6 +2,7 @@ import ButtonBlue from "@/components/button-blue";
 import ButtonRed from "@/components/button-red";
 import HeaderLogo from "@/components/header-logo";
 import Strong from "@/components/strong";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -76,12 +77,12 @@ export default function Home() {
         />
       </div>
       <div className="grid grid-cols-2 max-w-[800px] w-[90vw] my-4">
-        <ButtonRed className="">
+        <ButtonRed target={"/dobrovolnici"} className="">
           <p className="sm:text-base md:text-xl text-xs font-chronicaPro">
             Zapojte se!
           </p>
         </ButtonRed>
-        <ButtonBlue>
+        <ButtonBlue target={"/odber-novinek"}>
           <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
             Buďte v obraze
           </p>
@@ -89,7 +90,7 @@ export default function Home() {
             odebírejte novinky
           </span>
         </ButtonBlue>
-        <ButtonRed>
+        <ButtonRed target={"https://salesianipardubice.cz/vybaveni/"}>
           <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
             pomozete nám
           </p>
@@ -97,10 +98,15 @@ export default function Home() {
             centrum dovybavit
           </span>
         </ButtonRed>
-        <ButtonBlue>
+        <ButtonBlue target={"mailto:benakova@dozivota.cz"}>
           <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
-            Podívejte se k&nbsp;nám
+            Máte otázky?
           </p>
+          <span className="text-xs md:text-sm lowercase">
+            <Link href="mailto:benakova@dozivota.cz">benakova@dozivota.cz</Link>
+            {" | "}
+            <Link href="tel:+420776649046">776 649 046</Link>
+          </span>
         </ButtonBlue>
       </div>
     </main>
