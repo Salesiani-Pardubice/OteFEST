@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Chronica Pro';
+    src: url('ChronicaPro-Black.woff2') format('woff2'),
+        url('ChronicaPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chronica Pro Book';
+    src: url('ChronicaPro-Book.woff2') format('woff2'),
+        url('ChronicaPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

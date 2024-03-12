@@ -25,6 +25,27 @@ export default function Home() {
           className={``}
         />
       </header>
+      <div className="flex flex-row items-center justify-center w-full">
+        <img src="assets/svg/logo_otefest.svg" className="max-w-64" />
+        <img
+          src="assets/images/group.jpg"
+          className="rounded-full max-w-48 max-h-48 border-8 border-white"
+        />
+        <div>
+          <p>otevíráme dveře</p>
+          <p>mladým!</p>
+          <p>oslavnte to</p>
+          <p>s námi!</p>
+          <p>
+            26. května
+            <span>
+              20
+              <br />
+              24
+            </span>
+          </p>
+        </div>
+      </div>
       <h1>OteFEST</h1>
     </main>
   );
