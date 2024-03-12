@@ -6,7 +6,17 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        chronicaPro: ["Chronica Pro"],
+        chronicaProBook: ["Chronica Pro Book"],
+      },
+    },
+  },
+  variants: {
+    extend: {
+      fontFamily: ["hover", "focus"],
+    },
   },
   plugins: [],
 };
