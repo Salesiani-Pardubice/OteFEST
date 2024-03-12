@@ -3,7 +3,7 @@ export default function HeaderLogo({ svgPath, className, name }) {
     <img
       src={svgPath}
       className={`${className} w-36 my-2`}
-      title={name}
+      // title={name}
       alt={name}
     />
   );
