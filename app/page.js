@@ -32,15 +32,18 @@ export default function Home() {
       <div className="w-full flex flex-row justify-center">
         <div className="bg-[#7C091A] w-full"></div>
         <div className="flex flex-row items-center justify-center cover-gradient w-[90vw] max-w-[800px]">
-          <div className="w-[35vw] max-w-[300px] flex flex-row justify-center items-center">
+          <h1 className="w-[35vw] max-w-[300px] flex flex-row justify-center items-center">
             <img
               src="assets/svg/logo_otefest.svg"
               className="w-[25vw] max-w-[200px] my-4"
+              title="OteFEST"
+              alt="logo OteFESTU"
             />
-          </div>
+          </h1>
           <img
             src="assets/images/group.jpg"
             className="rounded-full w-[20vw] max-w-[130px] border-4 border-white"
+            alt="Obrázek rodin před novým kostelem"
           />
           <div className="font-chronicaPro w-[35vw] max-w-[300px] uppercase text-white flex flex-col justify-center items-end my-4">
             <p className="text-xs sm:text-base">otevíráme dveře</p>
