@@ -1,9 +1,11 @@
+import ButtonBlue from "@/components/button-blue";
+import ButtonRed from "@/components/button-red";
 import HeaderLogo from "@/components/header-logo";
 import Strong from "@/components/strong";
 
 export default function Home() {
   return (
-    <main className="bg-[#FCE8EA] w-full min-h-[100vh]">
+    <main className="bg-[#FCE8EA] w-full min-h-[100vh] flex flex-col items-center justify-center">
       <header className="bg-[#DCF0F5] w-full min-h-20 flex flex-wrap items-center justify-center">
         <HeaderLogo
           svgPath={`assets/svg/logo_sdb.svg`}
@@ -73,8 +75,33 @@ export default function Home() {
           src="assets/svg/program_komplet.svg"
         />
       </div>
-      <div>
-        <h2>Tlacitka</h2>
+      <div className="grid grid-cols-2 max-w-[800px] w-[90vw] my-4">
+        <ButtonRed className="">
+          <p className="sm:text-base md:text-xl text-xs font-chronicaPro">
+            Zapojte se!
+          </p>
+        </ButtonRed>
+        <ButtonBlue>
+          <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
+            Buďte v obraze
+          </p>
+          <span className="text-xs md:text-sm lowercase sm:uppercase">
+            odebírejte novinky
+          </span>
+        </ButtonBlue>
+        <ButtonRed>
+          <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
+            pomozete nám
+          </p>
+          <span className="text-xs md:text-sm lowercase sm:uppercase">
+            centrum dovybavit
+          </span>
+        </ButtonRed>
+        <ButtonBlue>
+          <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
+            Podívejte se k&nbsp;nám
+          </p>
+        </ButtonBlue>
       </div>
     </main>
   );
