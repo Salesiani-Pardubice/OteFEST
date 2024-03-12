@@ -52,7 +52,7 @@ export default function Home() {
             <p className="text-2xl sm:text-4xl">s námi!</p>
             <div className="text-xl sm:text-3xl text-[#7D0819] flex flex-row">
               <span>26.&nbsp;května</span>
-              <div className="text-xs font-chronicaProBook text-wrap flex flex-col items-center justify-center">
+              <div className="text-xs text-wrap flex flex-col items-center justify-center">
                 <span className="m-0 leading-[.65rem]">20</span>
                 <span className="m-0 leading-[.65rem]">24</span>
               </div>
