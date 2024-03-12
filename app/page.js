@@ -44,13 +44,13 @@ export default function Home() {
             <p className="text-2xl sm:text-4xl">mladým!</p>
             <p className="text-xs sm:text-base">oslavnte to</p>
             <p className="text-2xl sm:text-4xl">s námi!</p>
-            <p className="text-xl sm:text-3xl text-[#7D0819] flex flex-row">
-              26.&nbsp;května
+            <div className="text-xl sm:text-3xl text-[#7D0819] flex flex-row">
+              <span>26.&nbsp;května</span>
               <div className="text-xs font-chronicaProBook text-wrap flex flex-col items-center justify-center">
                 <span className="m-0 leading-[.65rem]">20</span>
                 <span className="m-0 leading-[.65rem]">24</span>
               </div>
-            </p>
+            </div>
           </div>
         </div>
         <div className="bg-[#1BB4D2] w-full"></div>
@@ -67,7 +67,15 @@ export default function Home() {
           <Strong>Buďte u&nbsp;toho s&nbsp;námi!</Strong>
         </p>
       </div>
-      <h1>OteFEST</h1>
+      <div className="flex flex-row items-center justify-center">
+        <img
+          className="w-[90vw] max-w-[800px] my-4"
+          src="assets/svg/program_komplet.svg"
+        />
+      </div>
+      <div>
+        <h2>Tlacitka</h2>
+      </div>
     </main>
   );
 }
