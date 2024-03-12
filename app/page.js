@@ -107,8 +107,10 @@ export default function Home() {
           </p>
           <span className="text-xs md:text-sm lowercase">
             <Link href="mailto:benakova@dozivota.cz">benakova@dozivota.cz</Link>
-            {" | "}
-            <Link href="tel:+420776649046">776 649 046</Link>
+            <span className="hidden sm:inline">{" | "}</span>
+            <Link href="tel:+420776649046" className="hidden sm:inline">
+              776 649 046
+            </Link>
           </span>
         </ButtonBlue>
       </div>
