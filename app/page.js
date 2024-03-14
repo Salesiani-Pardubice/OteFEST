@@ -53,8 +53,12 @@ export default function Home() {
             <div className="text-xl sm:text-3xl text-[#7D0819] flex flex-row">
               <span>26.&nbsp;května</span>
               <div className="text-xs text-wrap flex flex-col items-center justify-center">
-                <span className="m-0 sm:leading-[.65rem] leading-[.5rem] text-[.5rem] sm:text-xs">20</span>
-                <span className="m-0 sm:leading-[.65rem] leading-[.5rem] text-[.5rem] sm:text-xs">24</span>
+                <span className="m-0 sm:leading-[.65rem] leading-[.5rem] text-[.5rem] sm:text-xs">
+                  20
+                </span>
+                <span className="m-0 sm:leading-[.65rem] leading-[.5rem] text-[.5rem] sm:text-xs">
+                  24
+                </span>
               </div>
             </div>
           </div>
@@ -71,6 +75,14 @@ export default function Home() {
           (nejen) křesťanské aktivity.
           <br />
           <Strong>Buďte u&nbsp;toho s&nbsp;námi!</Strong>
+          <br />
+          <Link
+            href="https://mapy.cz/s/coronogude"
+            target="_blank"
+            className="underline"
+          >
+            Zborovské nám. 2018, Pardubice
+          </Link>
         </p>
       </div>
       <div className="flex flex-row items-center justify-center">
@@ -84,6 +96,10 @@ export default function Home() {
           <p className="sm:text-base md:text-xl text-xs font-chronicaPro">
             Zapojte se!
           </p>
+          <div className="text-xs md:text-sm lowercase sm:uppercase ">
+            <span>DOBROVOLNICTVÍ</span>{" "}
+            <span className="hidden sm:inline">NA FESTIVALU</span>
+          </div>
         </ButtonRed>
         <ButtonBlue target={"/odber-novinek"}>
           <p className="sm:text-base text-xs md:text-xl font-chronicaPro -mb-1 sm:mb-0">
