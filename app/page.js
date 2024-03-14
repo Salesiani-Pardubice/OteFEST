@@ -42,10 +42,10 @@ export default function Home() {
           </h1>
           <img
             src="assets/images/group.jpg"
-            className="rounded-full w-[20vw] max-w-[130px] border-4 border-white"
+            className="rounded-full w-[25vw] max-w-[160px] border-4 border-white"
             alt="Obrázek rodin před novým kostelem"
           />
-          <div className="font-chronicaPro w-[35vw] max-w-[300px] uppercase text-white flex flex-col justify-center items-end my-4">
+          <div className="font-chronicaPro w-[35vw] max-w-[300px] uppercase text-white flex flex-col justify-center items-end my-4 scale-75 sm:scale-90 md:scale-100">
             <p className="text-xs sm:text-base">otevíráme dveře</p>
             <p className="text-2xl sm:text-4xl">mladým!</p>
             <p className="text-xs sm:text-base">oslavte to</p>
@@ -86,15 +86,15 @@ export default function Home() {
           </p>
         </ButtonRed>
         <ButtonBlue target={"/odber-novinek"}>
-          <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
+          <p className="sm:text-base text-xs md:text-xl font-chronicaPro -mb-1 sm:mb-0">
             Buďte v obraze
           </p>
-          <span className="text-xs md:text-sm lowercase sm:uppercase">
+          <span className="text-xs md:text-sm lowercase sm:uppercase ">
             odebírejte novinky
           </span>
         </ButtonBlue>
         <ButtonRed target={"https://salesianipardubice.cz/vybaveni/"}>
-          <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
+          <p className="sm:text-base text-xs md:text-xl font-chronicaPro -mb-1 sm:mb-0">
             pomozete nám
           </p>
           <span className="text-xs md:text-sm lowercase sm:uppercase">
@@ -102,7 +102,7 @@ export default function Home() {
           </span>
         </ButtonRed>
         <ButtonBlue target={"mailto:benakova@dozivota.cz"}>
-          <p className="sm:text-base text-xs md:text-xl font-chronicaPro">
+          <p className="sm:text-base text-xs md:text-xl font-chronicaPro -mb-1 sm:mb-0">
             Máte otázky?
           </p>
           <span className="text-xs md:text-sm lowercase">
