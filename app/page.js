@@ -48,13 +48,13 @@ export default function Home() {
           <div className="font-chronicaPro w-[35vw] max-w-[300px] uppercase text-white flex flex-col justify-center items-end my-4">
             <p className="text-xs sm:text-base">otevíráme dveře</p>
             <p className="text-2xl sm:text-4xl">mladým!</p>
-            <p className="text-xs sm:text-base">oslavnte to</p>
+            <p className="text-xs sm:text-base">oslavte to</p>
             <p className="text-2xl sm:text-4xl">s námi!</p>
             <div className="text-xl sm:text-3xl text-[#7D0819] flex flex-row">
               <span>26.&nbsp;května</span>
               <div className="text-xs text-wrap flex flex-col items-center justify-center">
-                <span className="m-0 leading-[.65rem]">20</span>
-                <span className="m-0 leading-[.65rem]">24</span>
+                <span className="m-0 sm:leading-[.65rem] leading-[.5rem] text-[.5rem] sm:text-xs">20</span>
+                <span className="m-0 sm:leading-[.65rem] leading-[.5rem] text-[.5rem] sm:text-xs">24</span>
               </div>
             </div>
           </div>
