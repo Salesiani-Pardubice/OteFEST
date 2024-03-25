@@ -109,7 +109,11 @@ export default function Home() {
             odebírejte novinky
           </span>
         </ButtonBlue>
-        <ButtonRed target={"https://salesianipardubice.cz/vybaveni/"}>
+        <ButtonRed
+          target={
+            "https://donace.cz/projekty/otevirame-dvere-mladym-vybaveni-salesianskeho-centra-pardubice/"
+          }
+        >
           <p className="sm:text-base text-xs md:text-xl font-chronicaPro -mb-1 sm:mb-0">
             pomozete nám
           </p>
