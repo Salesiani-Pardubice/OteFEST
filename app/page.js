@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <main className="bg-[#FCE8EA] w-full min-h-[100vh] flex flex-col items-center justify-center">
       <header className="bg-[#DCF0F5] w-full min-h-20 flex flex-wrap items-center justify-center">
-        <HeaderLogo
-          svgPath={`assets/svg/logo_sdb.svg`}
+        {/* <HeaderLogo
+          svgPath={`assets/svg/logo_sdb_2024.svg`}
           name="Logo Salesiánů Dona Bosca"
           className={`-mx-7`}
         />
@@ -24,9 +24,18 @@ export default function Home() {
           className={`-mx-7`}
         />
         <HeaderLogo
-          svgPath={`assets/svg/logo_farnost.svg`}
+          svgPath={`assets/svg/logo_farnost_2024.svg`}
           name="Logo farnosti Pardubice"
           className={``}
+        />
+        <HeaderLogo
+          svgPath={`assets/svg/logo_pardubice_2024.svg`}
+          name="Logo farnosti Pardubice"
+          className={``}
+        /> */}
+        <img
+          src="assets/svg/loga_komplet_2024.svg"
+          alt="Loga místních salesiánských děl, spolupracujících subjektů a sponzorů."
         />
       </header>
       <div className="w-full flex flex-row justify-center">
